@@ -1,0 +1,619 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>GameOnPizza</title>
+<link rel="icon" type="image/png" href="images/icon.png">
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Pizza, GameOnPizza" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--js-->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<script src="js/modernizr.custom.js"></script>
+<!-- //js -->
+<script>
+	$(document).ready(function () {
+	    size_li = $("#myList li").size();
+	    x=1;
+	    $('#myList li:lt('+x+')').show();
+	    $('#loadMore').click(function () {
+	        x= (x+1 <= size_li) ? x+1 : size_li;
+	        $('#myList li:lt('+x+')').show();
+	    });
+	    $('#showLess').click(function () {
+	        x=(x-1<0) ? 1 : x-1;
+	        $('#myList li').not(':lt('+x+')').hide();
+	    });
+	});
+</script>
+</head>
+<body>
+	<!--banner-->
+	<div class="banner">
+		<div class="banner-info">
+			<div class="container">
+				<div class="logo">
+					<div class="ribbon">
+						<div class="ribbon-fold"><h1> <a href="index.html">GameOnPizza</a></h1></div>
+					</div>
+					<h2>Good games starts with good food</h2>
+				</div>			
+				<!--navigation-->
+				<div class="top-nav">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-center cl-effect-14">
+								<li><a href="index.html" class="active">Acasă</a></li>
+								<li><a href="about.html">Despre</a></li>
+								<li><a href="codes.html">GamesRoom</a></li>	
+								<li><a href="gallery.html">Galerie</a></li>	
+								<li><a href="contact.html">Contact</a></li>
+							</ul>	
+							<div class="clearfix"> </div>
+						</div>	
+					</nav>		
+				</div>	
+				<!--navigation-->
+			</div>
+		</div>
+	</div>
+	<!--//banner-->
+	<!--banner-bottom-->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-text">
+				<h3>Grand Theft Pizza</h3>
+				<p>Oferta zilei</p>
+				<a href="#meniul" class="btn btn-1 btn-1b">More</a>
+			</div>
+			<!--welcome-->
+			<div class="welcome">
+				<h3 class="title">Bun venit</h3>
+				<p>Îți place pizza ? Îți place să te joci ? Atunci ai venit în locul potrivit !</p>
+				<div class="welcome-info">
+					<div class="col-md-6 welcome-grids">
+						<div class="welcome-img">
+							<img src="images/img1.jpg" class="img-responsive zoom-img" alt=""/>
+						</div>
+					</div>
+					<div class="col-md-6 welcome-grids">
+						<div class="welcome-img">
+							<img src="images/img2.jpg" class="img-responsive zoom-img" alt=""/>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<p>Încearcă noua experiență GameOnPizza, care combină savoarea unei pizze de calitate, cu timpul petrecut alături de cei dragi, la o partidă de biliard sau alte jocuri disponibile. Pizzeria noastră nu numai că vă stă la dispoziție cu un meniu variat </p>			
+			</div>
+			<!--//welcome-->
+		</div>
+	</div>
+	<!--//banner-bottom-->
+	<!--services-->
+	<div class="services">
+		<div class="container">
+			<h3 class="title">Servicii</h3>
+			<div class="servc-grids">
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="about.html" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-user" aria-hidden="true"></span></a>
+					</div>
+					<h4>Despre</h4>
+					<p></p>
+				</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="contact.html" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-home" aria-hidden="true"></span></a>
+					</div>
+					<h4>Contact</h4>
+					<p></p>
+				</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="codes.html" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-fire" aria-hidden="true"></span></a>
+					</div>
+					<h4>GamesRoom</h4>
+					<p></p>
+				</div>
+				<div class="col-md-3 servc-grid">
+					<div class="servc-icon hi-icon-effect-8">
+						<a href="#feedbacks" class="hi-icon hi-icon-archive"><span class="glyphicon glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a>
+					</div>
+					<h4>Feedbacks</h4>
+					<p></p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//services-->
+	<!--menu-->
+	<div class="menu" id="meniul">
+		<div class="container">
+			<div class="menu-tag">
+				<h3 class="title">Meniul</h3>
+			</div>
+			<div class="load_more">	
+				<ul id="myList">
+					<li>
+						<div class="l_g">
+							<div class="l_g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Bronze Pack</h4>
+											<h6>400gr - Sos Roșii, Mozzarella.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>13 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Prosciutto e Funghi</h4>
+											<h6>400gr - Sos Roșii, Mozzarella, Prosciutto Cotto, Ciuperci.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>17 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Speck e Gorgonzola</h4>
+											<h6>430gr - Sos Roșii, Mozzarella, Speck, Gorgonzola.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>20 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Prosciutto</h4>
+											<h6>380gr - Sos Roșii, Mozzarella, Prosciutto Cotto.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>16 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Rustica</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Ciuperci, Ardei Gras, Porumb.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>20 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Mare e Monti</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Creveți, Porcini.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>24 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Cheesy Crudo</h4>
+											<h6>480gr - Sos Roșii, Margine umplută cu Mozzarella, Crudo, Rucola.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>25 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Firenze</h4>
+											<h6>450gr - Mozzarella, Rosii, Crudo Grana, Rucola.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>23 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div> 
+						</div>	
+					</li>
+					<li><div class="l_g">
+							<div class="l_g_r g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Subnautica</h4>
+											<h6>Sos Roșii, Mozzarella, Mixt Fructe de Mare.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>26 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Don Felipe</h4>
+											<h6>460gr - Sos Roșii, Mozzarella, Crudo, Speck, Rucola, Grana.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>21 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Diavola</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Salam Picant, Ceapă, Ardei Iute.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>20 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Bufala</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Bufala, Basilico.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>19 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Ungureasca</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Carnaț, Bacon, Ceapă, Ardei.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"></span>
+										</div>
+										<div class="menu-text-right">
+											<h4>20 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Havana</h4>
+											<h6>440gr - Sos Roșii, Mozzarella, Prosciutto Cotto, Ananas.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>19 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Quattro Stagioni</h4>
+											<h6>440gr - Sos Rosii, Mozzarella, Prosciutto Cotto, Ciuperci, Salam, Masline.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>18 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Vegetariana</h4>
+											<h6>460gr - Sos Roșii, Mozzarella, Ciuperci, Dovlecel, Vinete, Porumb, Ardei, Rucola.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>22 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</li>
+					<li><div class="l_g">
+							<div class="l_g_r g_r">
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Grand Theft Pizza</h4>
+											<h6>1500gr - Sos Rosii, Mozzarela, Salam, Prosciutto Cotto, Carnați, Ciuperci, Porumb.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>40 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Safehouse</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Prosciutto Cotto, Salam, Bacon, Porumb, Măsline, Ardei.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>22 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Cheesy</h4>
+											<h6>460gr - Margine umplută cu Mozzarella, Piept Pui, Roșii, Sos Alb.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>22 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Capricciosa</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Prosciutto Cotto, Ciuperci, Salam, Măsline, Anghinare.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>19 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="col-md-6 menu-grids">
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Bufala Bianco</h4>
+											<h6>420gr - Mozzarella, Bufala, Busuioc.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>19 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>	
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>Salmone</h4>
+											<h6>450gr - Sos Roșii, Mozzarella, Somon, Sos Usturoi, Pătrunjel.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>22 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text2">
+										<div class="menu-text-left">
+											<h4>Tomberiano</h4>
+											<h6>480gr - Sos Roșii, Mozzarella, Prosciutto Cotto, Ciuperci, Salam, Carnaț, Măsline, Ceapă, Busuioc.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>23 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="menu-text">
+										<div class="menu-text-left">
+											<h4>La Grande Sorella</h4>
+											<h6>500gr - Sos Roșii, Mozzarella, Salam Dulce și Picant, Bacon, Ceapă, Ardei, Ou, Măsline.</h6>
+										</div>
+										<div class="menu-text-midle">
+											<span class="line"> </span>
+										</div>
+										<div class="menu-text-right">
+											<h4>22 Ron</h4>
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>	
+						</div>	
+					</li>
+				</ul>
+				<div id="loadMore">Load more</div>
+				<div id="showLess">Show less</div>
+			</div>
+		</div>
+	</div>
+	<!--//menu-->
+	<!-- testimonial -->
+	<div id="feedbacks" class="testimonial">
+		<!-- container -->
+		<div class="container">
+			<h3 class="title">Feedbacks</h3>
+			<!-- banner-text Slider starts Here -->
+			<script src="js/responsiveslides.min.js"></script>
+			 <script>
+				// You can also use "$(window).load(function() {"
+					$(function () {
+					// Slideshow 4
+						$("#slider3").responsiveSlides({
+						auto: true,
+						pager:true,
+						nav:false,
+						speed: 500,
+						namespace: "callbacks",
+						before: function () {
+						$('.events').append("<li>before event fired.</li>");
+						},
+						after: function () {
+							$('.events').append("<li>after event fired.</li>");
+						}
+					});	
+				});
+			</script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/t1.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Maria Dumitrescu</h5>
+								<p><span>"</span> Nu mai mancasem demult o pizza atât de bună. Cu siguranță mai vin. <span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/t3.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Florica Popescu</h5>
+								<p><span>"</span> Comanda vine rapid, iar mancarea este delicioasă. Recomand!<span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+					<li>
+						<div class="testimonial-grids">
+							<div class="testimonial-left">
+								<img src="images/dorian.jpg" alt="" />
+							</div>
+							<div class="testimonial-right">
+								<h5>Dorian Popa</h5>
+								<p><span>"</span> Super atmosfera, personal fain și mâncare buna! <span>"</span>
+								</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	<!-- //testimonial -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="col-md-3 footer-left">
+				<h4>Adresa</h4>
+				<ul>
+					<li>Str. Republicii 12</li>
+					<li>Oradea, România</li>
+				</ul>					
+			</div>
+			<div class="col-md-3 footer-left">
+				<h4>Detalii</h4>
+				<ul>
+					<li><a href="about.html">Despre</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-3 footer-right">
+				<p> © 2018 GameOnPizza . All rights reserved</p>
+				<div class="icons">
+				<ul>
+					<li><a href="#" class="twitter"> </a></li>
+					<li><a href="#" class="twitter facebook"> </a></li>
+					<li><a href="#" class="twitter chrome"> </a></li>
+					<li><a href="#" class="twitter pinterest"> </a></li>
+					<li><a href="#" class="twitter linkedin"> </a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
